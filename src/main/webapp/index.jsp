@@ -14,9 +14,13 @@
         lab3: 輸入中文試試看
         lab4: 建立一個新的 servlet，怎麼改變 action 去對應？
         -->
-        <form action="process" method="GET">
+        <form action="form1" method="GET">
             name: <input type="text" name="username"></input><br/>
-            password: <input type="password" name="pass"/><br/>
+            password: <input type="password" name="pass"/></input><br/>
+            從哪裡得知的消息：<br/>
+            <input type="checkbox" name="source" value="web"></input>網站
+            <input type="checkbox" name="source" value="news"></input>新聞
+            <input type="checkbox" name="source" value="fb"></input>臉書<br/>
             <input type="submit"/>
         </form>
     </body>
